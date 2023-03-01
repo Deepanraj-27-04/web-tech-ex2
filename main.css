@@ -92,6 +92,7 @@ button{
 }
 button:hover{
     background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    box-shadow: 5px 10px 18px #0b110f;
 }
 .login
 {
@@ -120,6 +121,9 @@ li{
     border-radius: 5px;
     background-repeat: repeat   ;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.inner:hover{
+    box-shadow: 5px 10px 18px #1d074a;
 }
 .icon{
    /* display: grid;
@@ -192,4 +196,51 @@ a:hover{
  
 }*/
 
+}
+.content{
+    display: block;
+    width: 30%;
+    height: 100px;
+    position: relative;
+    bottom: 600px;
+    font-size: 18px;
+    padding-left: 20px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+    color: #330426;
+    line-height: 200%;
+
+}
+p{
+    background-image: linear-gradient(120deg, #d6b7e4 0%, #efbec6 100%);
+    background-repeat: repeat;
+    padding: 10px;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+p:hover{
+    box-shadow: 5px 10px 18px #330426;
+}
+.content2{
+    display: block;
+    width: 30%;
+    height: 100px;
+    position: relative;
+    left:1000px;
+    bottom: 720px;
+    font-size: 18px;
+    padding-left: 20px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+    color: #330426;
+    line-height: 200%;
+
+}
+.box:hover{
+    box-shadow: 5px 10px 18px #330426;
+}
+.img:hover{
+    box-shadow: 5px 10px 18px #330426;
 }
