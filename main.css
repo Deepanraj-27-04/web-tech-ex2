@@ -227,7 +227,7 @@ p:hover{
     width: 30%;
     height: 100px;
     position: relative;
-    left:1000px;
+    left:1270px;
     bottom: 720px;
     font-size: 18px;
     padding-left: 20px;
@@ -243,4 +243,10 @@ p:hover{
 }
 .img:hover{
     box-shadow: 5px 10px 18px #330426;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
