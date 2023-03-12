@@ -250,3 +250,25 @@ p:hover{
     align-items: center;
     justify-content: space-evenly;
 }
+.box1{
+    width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-repeat: repeat;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.box1:hover{
+    box-shadow: 5px 10px 18px #330426;
+}
+.buttons{
+    margin-left: 350px;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    
+  }
